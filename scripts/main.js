@@ -5,13 +5,9 @@ $(function() {
 
     WTF.init({
 
-         heading:[
-             "Have you ever played a",
-             "What would your GM say to a",
-             "For my back up character, I'm gonna play a fucking",
-         ],
+         heading: [ "Have you ever played a", "What would your GM say to a", "For my back up character, I'm gonna play a fucking",],
 	    
-         response:[
+         response: [
              "Already fucking seen one",
              "Give me a-fucking-nother one",
              "Another!",
@@ -25,7 +21,7 @@ $(function() {
             "@personality @ancestry @background @class from @location who @description"
          ],
         
-        personality:[
+        personality: [
 		"active",
 		"adaptable",
 		"adventurous",
