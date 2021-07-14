@@ -484,7 +484,7 @@ $(function() {
 		"enjoys talking to strangers in a new town",
 		"has been unintentionally caught in the middle of a blood feud between two merchant familes",
 		"keeps making social faux pas at every party they go to",
-		"isn't sure if they have a twin, or if they have forgotten meeting that many people:,
+		"isn't sure if they have a twin, or if they have forgotten meeting that many people",
 		"won a drinking contest at a town fair, and is terrified that someone will find out they cheated",
 		"holds the record at a tavern for eating 17 whole chickens in a sitting. The chickens were cooked, of course.",
 		"has a penchant for bursting into dance routines at inappropriate moments",
