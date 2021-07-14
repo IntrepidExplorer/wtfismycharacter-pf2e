@@ -7,18 +7,18 @@ $(function() {
 
          heading:[
              "Have you ever played a",
-             "What would your GM say to a"
-             "For my back up character, I'm gonna play a fucking"
+             "What would your GM say to a",
+             "For my back up character, I'm gonna play a fucking",
          ],
 	    
          response:[
              "Already fucking seen one",
              "Give me a-fucking-nother one",
-             "Another!"
-             "Lame, try again"
-             "Are you insane? Give me a different one"
-             "This isn't the slightest big intriguing"
-             "Nope, nope, nope"
+             "Another!",
+             "Lame, try again",
+             "Are you insane? Give me a different one",
+             "This isn't the slightest big intriguing",
+             "Nope, nope, nope",
          ],
 	    
          template:[
@@ -451,11 +451,11 @@ $(function() {
 		"the gutters",
 		"the basement of a forgotten wizard's tower",
 		"the last outpost before the wilderness",
-		"a dairy farm where nothing ever happened             
+		"a dairy farm where nothing ever happened",             
         ],
 	    
         description: [
-            "isn't officially dead",
+            	"isn't officially dead",
 		"is definitely not a hugging type",
 		"has an unhealthy obsession with frogs",
 		"is the biggest fan of the king's jester",
