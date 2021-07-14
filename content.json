@@ -1,27 +1,24 @@
-
-$(function() {
-
-    // Populate using an object literal
-
-    WTF.init({
-
-         heading: [ "Have you ever played a", "What would your GM say to a", "For my back up character, I'm gonna play a fucking",],
+heading: [ 
+  "Have you ever played a", 
+  "What would your GM say to a", 
+  "For my back up character, I'm gonna play a fucking",
+],
 	    
-         response: [
-             "Already fucking seen one",
-             "Give me a-fucking-nother one",
-             "Another!",
-             "Lame, try again",
-             "Are you insane? Give me a different one",
-             "This isn't the slightest big intriguing",
-             "Nope, nope, nope",
-         ],
+response: [
+    "Already fucking seen one",
+    "Give me a-fucking-nother one",
+    "Another!",
+    "Lame, try again",
+    "Are you insane? Give me a different one",
+    "This isn't the slightest big intriguing",
+    "Nope, nope, nope",
+],
 	    
-         template:[
-            "@personality @ancestry @background @class from @location who @description"
-         ],
+template:[
+    "@personality @ancestry @background @class from @location who @description"
+],
         
-        personality: [
+personality: [
 		"active",
 		"adaptable",
 		"adventurous",
@@ -247,9 +244,9 @@ $(function() {
 		"undemanding",
 		"unyielding",
 		"quiet",
-        ],
+],
 	    
-        ancestry:[
+ancestry: [
 		"dwarf",
 		"elf",
 		"gnome",
@@ -278,9 +275,9 @@ $(function() {
 		"shoony",
 		"sprite",
 		"strix",            
-        ],
+],
 	    
-	background:[
+background: [
  		"academic",
 		"acolyte",
 		"acrobat",
@@ -418,9 +415,9 @@ $(function() {
 		"winter’s child",
 		"witch wary",
 		"wonder taster",           
-        ],
+],
 	    
-        class:[
+class: [
  		"alchemist",
 		"barbarian",
 		"bard",
@@ -437,8 +434,9 @@ $(function() {
 		"swashbuckler",
 		"witch",
 		"wizard",           
-        ],
-	location: [
+],
+
+location: [
 		"the smallest city in the kingdom",
 		"underneath a rotten log",
 		"a treetop city",
@@ -448,10 +446,10 @@ $(function() {
 		"the basement of a forgotten wizard's tower",
 		"the last outpost before the wilderness",
 		"a dairy farm where nothing ever happened",             
-        ],
+],
 	    
-        description: [
-            	"isn't officially dead",
+description: [
+    "isn't officially dead",
 		"is definitely not a hugging type",
 		"has an unhealthy obsession with frogs",
 		"is the biggest fan of the king's jester",
@@ -460,8 +458,4 @@ $(function() {
 		"can't tell if chickens are real or imaginary",
 		"has met a god and thinks it was a dream",
 		"is on the run from their murderous aunt",
-        ],
-
-     });
-    
-});
+  ]
