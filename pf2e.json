@@ -1,19 +1,23 @@
 {
-  "heading": [ "Have you ever played a", "What would your GM say to a", "For my back up character, I'm gonna play a fucking",],
+	"heading": [ 
+		"Have you ever played a", 
+		"What would your GM say to a", 
+		"For my back up character, I'm gonna play a fucking",
+	],
 	
   "response": [
-             "Already fucking seen one",
-             "Give me a-fucking-nother one",
-             "Another!",
-             "Lame, try again",
-             "Are you insane? Give me a different one",
-             "This isn't the slightest big intriguing",
-             "Nope, nope, nope",
-         ],
+    	"Already fucking seen one",
+    	"Give me a-fucking-nother one",
+    	"Another!",
+    	"Lame, try again",
+    	"Are you insane? Give me a different one",
+    	"This isn't the slightest big intriguing",
+    	"Nope, nope, nope",
+    ],
 	    
    "template": [
-            "@personality @ancestry @background who became a @class, that grew up @location and who @description"
-         ],
+        "@personality @ancestry @background who became a @class, that grew up @location and who @description"
+    ],
         
     "personality": [
 		"active",
@@ -241,9 +245,9 @@
 		"undemanding",
 		"unyielding",
 		"quiet",
-        ],
+    ],
 	    
- "ancestry": [
+    "ancestry": [
 		"dwarf",
 		"elf",
 		"gnome",
@@ -272,7 +276,7 @@
 		"shoony",
 		"sprite",
 		"strix",            
-        ],
+    ],
 	    
 	"background": [
  		"academic",
@@ -412,7 +416,7 @@
 		"winter’s child",
 		"witch wary",
 		"wonder taster",           
-        ],
+    ],
 	    
         "class": [
  		"alchemist",
@@ -431,7 +435,7 @@
 		"swashbuckler",
 		"witch",
 		"wizard",           
-        ],
+    ],
   
 	"location": [
 		"in the smallest city in the kingdom",
@@ -463,9 +467,9 @@
 		"around the gladitorial arena in the capitol",
 		"in the Glass Desert",
 		"in a marshland with a reputation for being haunted",
-        ],
+    ],
 	    
-        "description": [
+    "description": [
 		"isn't officially dead",
 		"is definitely not a hugging type",
 		"has an unhealthy obsession with frogs",
@@ -510,6 +514,6 @@
 		"enjoys taunting guards in any town they visit, though is proud of never having been thrown in jail for it",
 		"keeps their weapons and armor obsessively clean",
 		"gives a completely different story about how they got their obvious scar every time they're asked",
- ]
+ 	]
 
 }

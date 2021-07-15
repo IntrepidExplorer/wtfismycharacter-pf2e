@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Who the fuck is my character?</title>
-		<meta name="description" content="A character idea generator for Paizo roleplaying games" />
+		<meta name="description" content="A Pathfinder 2nd Edition character idea generator" />
 		<meta name="copyright" content="Copyright Tom Larsen 2021. All Rights Reserved." />
 		<meta name="author" content="Tom Larsen" />
 		<link rel="apple-touch-icon" href="images/custom_icon.png"/>
@@ -12,14 +12,25 @@
 	<body>
 		<div id="wrapper">
 		    <header>
-		        <h1>Who the fuck is my character?</h1>
+		        <h1>Who the fuck is my character for Pathfinder Second Edition?</h1>
 		    </header>
-		    <div>
+		    <article>
+		        <div id="output">
+		            <noscript>
+		                <dl>
+		                    <dt>What the fuck! You don't even have JavaScript enabled!</dt>
+		                    <dd>You need to enable it to see all the fucking cool shit on this website...</dd>
+		                </dl>
+		            </noscript>
+		        </div>
+		        <a id="generate" href="#" title="Hit me again!"></a>
 
-			</div>
-		    <div>
-
-			</div>
+		    </article>
+	 	    <div style="padding-top: 50px;">
+			<p><a href="https://2e.aonprd.com/Ancestries.aspx">What kind of ancestry is THAT?!</a></p>
+			<p><a href="https://2e.aonprd.com/Backgrounds.aspx">That's a background? For real?</a></p>
+		    </div>
+		    
 		    <footer>
 		        <div id="about">If you make it, make sure you make it <a href="http://www.opensource.org/" target="blank">Open Source</a></div>
 		        <div id="credit">Built with <a href="https://github.com/soulwire/WTFEngine" title="An HTML / CSS / JavaScript template for creating WhatTheFuckIsMyMashup.com style web sites" target="_blank">WTF Engine</a> by <a href="http://blog.soulwire.co.uk/" title="Made by Justin Windle @soulwire">Justin</a></div>
@@ -28,6 +39,9 @@
 		    </footer>
 		    <img class="loading" src="images/loading.gif">
 		</div>
-
+		<script src="//cdnjs.cloudflare.com/ajax/libs/zepto/1.1.2/zepto.min.js"></script>
+		<script>window.Zepto || document.write('<script src="scripts/vendor/zepto.min.js"><\/script>')</script>
+		<script src="scripts/wtf.js"></script>
+		<script src="scripts/main.js"></script>
 	</body>
 </html>
