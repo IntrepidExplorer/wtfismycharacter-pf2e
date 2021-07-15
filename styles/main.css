@@ -117,3 +117,11 @@ footer a {
 footer a:hover {
 	text-decoration: underline;
 }
+
+#title h1 {
+	display:block;
+}
+
+#index-content div {
+	text-align: center;
+}
