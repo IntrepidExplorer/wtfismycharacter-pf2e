@@ -2,7 +2,7 @@
 	"heading": [ 
 		"Have you ever played a", 
 		"What would your GM say to a", 
-		"For my back up character, I'm gonna play a fucking",
+		"For my back up character, I'm gonna play a fucking"
 	],
 	
   "response": [
@@ -12,7 +12,7 @@
     	"Lame, try again",
     	"Are you insane? Give me a different one",
     	"This isn't the slightest big intriguing",
-    	"Nope, nope, nope",
+    	"Nope, nope, nope"
     ],
 	    
    "template": [
@@ -244,7 +244,7 @@
 		"uncompromising",
 		"undemanding",
 		"unyielding",
-		"quiet",
+		"quiet"
     ],
 	    
     "ancestry": [
@@ -275,7 +275,7 @@
 		"shisk",
 		"shoony",
 		"sprite",
-		"strix",            
+		"strix"            
     ],
 	    
 	"background": [
@@ -415,7 +415,7 @@
 		"wildborne",
 		"winter’s child",
 		"witch wary",
-		"wonder taster",           
+		"wonder taster"           
     ],
 	    
         "class": [
@@ -434,7 +434,7 @@
 		"sorcerer",
 		"swashbuckler",
 		"witch",
-		"wizard",           
+		"wizard"           
     ],
   
 	"location": [
@@ -466,7 +466,7 @@
 		"in a hamlet famous for its baked goods",
 		"around the gladitorial arena in the capitol",
 		"in the Glass Desert",
-		"in a marshland with a reputation for being haunted",
+		"in a marshland with a reputation for being haunted"
     ],
 	    
     "description": [
@@ -513,7 +513,7 @@
 		"is morally opposed to shedding blood",
 		"enjoys taunting guards in any town they visit, though is proud of never having been thrown in jail for it",
 		"keeps their weapons and armor obsessively clean",
-		"gives a completely different story about how they got their obvious scar every time they're asked",
+		"gives a completely different story about how they got their obvious scar every time they're asked"
  	]
 
 }
