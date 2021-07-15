@@ -12,7 +12,7 @@
          ],
 	    
    "template": [
-            "@personality @ancestry @background @class from @location who @description"
+            "@personality @ancestry @background who became a @class, from @location and who @description"
          ],
         
     "personality": [
