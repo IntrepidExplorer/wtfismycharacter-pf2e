@@ -41,6 +41,11 @@ header h1 {
 	display: none;
 }
 
+.container {
+	display:flex;
+	justify-content: center;
+}
+
 #output {
 	font-size: 48px;
 	line-height: 48px;
@@ -118,10 +123,3 @@ footer a:hover {
 	text-decoration: underline;
 }
 
-#title h1 {
-	display:block;
-}
-
-#index-content div {
-	text-align: center;
-}
