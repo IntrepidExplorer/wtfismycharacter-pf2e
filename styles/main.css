@@ -11,8 +11,12 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	height: 100%;
+	background-color: #FBFAEF;
 }
 
+a {
+	color: #a71d31;
+}
 .loading {
 	position: absolute;
 	opacity: 0.8;
@@ -28,7 +32,7 @@ body {
 
 header, article {
 	font-weight: 800;
-	color: #000;
+	color: #2e4057;
 }
 
 header {
@@ -36,20 +40,26 @@ header {
 }
 
 header h1 {
-	font-size: 60px;
-	line-height: 60px;
-	display: none;
+	font-size: 50px;
+	line-height: 50px;
+	color: #FBFAEF;
 }
 
+#align-center {
+	text-align: center;
+}
 .container {
 	display:flex;
 	justify-content: center;
 }
 
 #output {
+	text-align: left;
 	font-size: 48px;
 	line-height: 48px;
 	margin: 60px 0;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #output.animate {
@@ -69,13 +79,19 @@ noscript {
 
 #output dd {
 	display: block;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	max-width:1200px;
 
 }
 
 #generate {
 	text-decoration: none;
 	font-size: 20px;
-	color: #000;
+	color: #2e4057;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #generate:hover {
@@ -95,11 +111,22 @@ aside {
 	display: inline;
 }
 
-#share-facebook {}
-#share-twitter {position: relative; top: -1px;}
-.twitter-share-button {
-	font-size: 11px;	
-	color: #000;
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.btn {
+	height: 200px;
+	width: 500px;
+	border-color: #D5BF86;
+	background-color: #D5BF86;
+	border-radius: 30px;
+}
+
+.btn:hover {
+	background-color: #8D775F;
 }
 
 footer {
@@ -116,12 +143,16 @@ footer {
 
 footer a {
 	text-decoration: none;
-	color: #000;
+	color: #a71d31;
 }
 
 footer a:hover {
 	text-decoration: underline;
 }
+
+
+
+
 
 /* Hamburger Menu styling */
 *{
@@ -130,7 +161,7 @@ footer a:hover {
 	box-sizing: border-box;
 }
 .logo-area{
-	color: #ffffff;
+	color: #FBFAEF;
 	font-size: 22px;
 	font-weight: bold;
 	margin: 10px;
@@ -140,7 +171,7 @@ header{
 	height: 50px;
 	width: 100%;
 	z-index: 2;
-	background: #008bff;
+	background: #2e4057;
 	position: relative;
 }
 .menulist {
@@ -158,7 +189,7 @@ header{
 }
 .menulist li a{
 	text-decoration: none;
-	color: #ffffff;
+	color: #FBFAEF;
 }
 .check{
 	right: 0;
@@ -177,10 +208,10 @@ header{
 	margin: 3px 20px 0px 0px;
 	position: relative;
 	display: none;
-	border: 2px solid #ffffff;
+	border: 2px solid #FBFAEF;
 }
 .menuline {
-	background: #ffffff;
+	background: #FBFAEF;
 	height: 2px;
 	width: 25px;
 	position: relative;
@@ -191,7 +222,7 @@ header{
 .menuline::before {
 	content:'';
 	position: absolute;
-	background: #ffffff;
+	background: #FBFAEF;
 	height: 2px;
 	width: 25px;
 	top: -8px;
@@ -199,7 +230,7 @@ header{
 .menuline::after {
 	content:'';
 	position: absolute;
-	background: #ffffff;
+	background: #FBFAEF;
 	height: 2px;
 	width: 25px;
 	top: 8px;
@@ -223,7 +254,7 @@ header{
 		width: 100%;
 		height: 100%;
 		margin-right: 0px;
-		background:#008bff;
+		background:#2e4057;
 		top: 50px;
 		padding-top: 50px;
 		text-align: center;
@@ -236,21 +267,26 @@ header{
 	.menulist {
 		display: block;
 		margin-right: 0px;
-		}
+	}
 	.menulist li a{
 			font-size: 22px;
 			text-align: center;
-				}
+	}
+
+
 	.check:checked ~ .menulist{
 		right: 0;
-		}
-		
-		.check:checked ~ .ham-menu .menuline{
-			transform: rotate(135deg);
-			transition: 0.3s ease;
-		}
-		.check:checked ~ .ham-menu .menuline::before,.check:checked ~ .ham-menu .menuline::after{
-			top: 0;
-			transform: rotate(90deg);
-		}
+	}
+	.menulist li:hover {
+		background-color: #D5BF86;
+	}	
+	.check:checked ~ .ham-menu .menuline{
+		transform: rotate(135deg);
+		transition: 0.3s ease;
+	}
+	
+	.check:checked ~ .ham-menu .menuline::before,.check:checked ~ .ham-menu .menuline::after{
+		top: 0;
+		transform: rotate(90deg);
+	}
 }
