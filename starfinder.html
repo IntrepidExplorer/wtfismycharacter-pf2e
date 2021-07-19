@@ -2,15 +2,16 @@
 <html>
 	<head>
 		<title>Who the fuck is my character?</title>
-		<meta name="description" content="A character idea generator for Paizo roleplaying games" />
+		<meta name="description" content="A Starfinder character idea generator" />
 		<meta name="copyright" content="Copyright Tom Larsen 2021. All Rights Reserved." />
 		<meta name="author" content="Tom Larsen" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="apple-touch-icon" href="images/custom_icon.png"/>
 		<link rel="shortcut icon" href="images/favicon.png"/>
 		<link rel="stylesheet" href="styles/main.css" />
 	</head>
 	<body>
-		<div>
+		<div id="">
 		    <header>
 				<nav>
 					<div class='logo-area'></div>
@@ -25,29 +26,37 @@
 								<li><a href='/about.html'>About</a></li>
 							</ul>
 				</nav>
-				<h1 style="margin-left:15px">Who the fuck is my character?</h1>
+		        <h1>Who the fuck is my character?</h1>
 		    </header>
-		    <div id="align-center">
-				<p style="margin-top: 30px;">Have you ever struggled to come up with a character at the drop of a hat? Choose your system below, and you'll be provided with a random one! </p>
-			</div>
-		    <div class="flex-container" style="margin-top: 25px;">
-				<div><a href="/pf2e.html"><img src="/images/PF2Logo.png" width="400px"></a></div>
-				<div><a href="/starfinder.html"><img src="/images/starfinderLogo.png" width="400px"></a></div>
-			<!-- Working with buttons
-			<div class="flex-container">
-				<div><a class="btn" href="/pf2e.html">Pathfinder</a></div>
-				<div><a class="btn" href="/starfinder.html">Starfinder</a></div>
-			</div> -->
+		    <article>
+				<div style="text-align: center;"><img src="/images/starfinderLogo.png" style="margin-top:15px;"></div>
+		        <div id="output">
+		            <noscript>
+		                <dl>
+		                    <dt>What the fuck! You don't even have JavaScript enabled!</dt>
+		                    <dd>You need to enable it to see all the fucking cool shit on this website...</dd>
+		                </dl>
+		            </noscript>
+		        </div>
+		        <a id="generate" href="#" title="Hit me again!" style="margin-right: 10%;"></a>
 
-			</div>
+		    </article>
+	 	    <div style="padding-top: 50px;" id="align-center">
+			<p style="text-align: right; margin-right: 10%;"><a href="https://www.aonsrd.com/Races.aspx?ItemName=All">What kind of race is THAT?!</a></p>
+			<p style="text-align: right; margin-right: 10%;"><a href="https://www.aonsrd.com/Themes.aspx?ItemName=All">That's a theme? For real?</a></p>
+		    </div>
+		    
 		    <footer>
 		        <div id="about">If you make it, make sure you make it <a href="http://www.opensource.org/" target="blank">Open Source</a></div>
 		        <div id="credit">Built with <a href="https://github.com/soulwire/WTFEngine" title="An HTML / CSS / JavaScript template for creating WhatTheFuckIsMyMashup.com style web sites" target="_blank">WTF Engine</a> by <a href="http://blog.soulwire.co.uk/" title="Made by Justin Windle @soulwire">Justin</a></div>
 		        <div>Inspired by <a href="http://whatthefuckshouldimakefordinner.com/" target="_blank">WTFSIMFD</a></div>
 			<div id="paizo-use">This website uses trademarks and/or copyrights owned by Paizo Inc., used under <a href="https://paizo.com/community/communityuse">Paizo's Community Use Policy</a>. <br>We are expressly prohibited from charging you to use or access this content. This website is not published, endorsed, or specifically approved by Paizo. <br>For more information about Paizo Inc. and Paizo products, visit <a href="https://www.paizo.com/">paizo.com</a>.</div>
 		    </footer>
-
+		    <img class="loading" src="images/loading.gif">
 		</div>
-
+		<script src="//cdnjs.cloudflare.com/ajax/libs/zepto/1.1.2/zepto.min.js"></script>
+		<script>window.Zepto || document.write('<script src="scripts/vendor/zepto.min.js"><\/script>')</script>
+		<script src="scripts/wtf.js"></script>
+		<script src="scripts/main-sf.js"></script>
 	</body>
 </html>
