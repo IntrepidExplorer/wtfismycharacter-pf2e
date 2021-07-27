@@ -16,7 +16,7 @@
     ],
 	    
    "template": [
-        "@personality @ancestry @background who became a @class, that grew up @location and who @description"
+        "@personality @ancestry @background who became a @class. They are from @location and @description"
     ],
         
     "personality": [
@@ -438,35 +438,40 @@
     ],
   
 	"location": [
-		"in the smallest city in the kingdom",
-		"in a treetop city",
-		"in a placid village with a high death rate",
-		"in a turnip farm",
-		"in the gutters",
-		"in the basement of a forgotten wizard's tower",
+		"the smallest city in the kingdom",
+		"a treetop city",
+		"a placid village with a high death rate",
+		"a turnip farm",
+		"the gutters",
+		"the basement of a forgotten wizard's tower",
 		"at the last outpost before the wilderness",
 		"on a dairy farm where nothing ever happened", 
 		"pestering the town guard",
-		"in a nomadic herding tribe",
-		"in a disgraced noble family",
-		"in the fae wild",
-		"in a town on the side of an active volcano",
-		"on the bad side of town",
-		"in the wealthiest city of the kingdom",
-		"in a city that history says was destroyed centuries ago",
-		"in the family who supplies the finest pork products to the duke",
+		"a nomadic herding tribe",
+		"a disgraced noble family",
+		"the fae wild",
+		"a town on the side of an active volcano",
+		"the bad side of town",
+		"the wealthiest city of the kingdom",
+		"a city that history says was destroyed centuries ago",
+		"the family who supplies the finest pork products to the duke",
 		"across the Endless Sea",
-		"in the crumbling cottage beside an overgrown cemetery",
+		"the crumbling cottage beside an overgrown cemetery",
 		"on the outskirts of a small mining town",
 		"near a port town living in fear of pirate raids",
-		"in a mansion on a hill",
-		"in a city full of ghosts",
-		"in a clan of beast hunters",
-		"in the Thieves' Guild",
-		"in a hamlet famous for its baked goods",
+		"a mansion on a hill",
+		"a city full of ghosts",
+		"a clan of beast hunters",
+		"the Thieves' Guild",
+		"a hamlet famous for its baked goods",
 		"around the gladitorial arena in the capitol",
-		"in the Glass Desert",
-		"in a marshland with a reputation for being haunted"
+		"the Glass Desert",
+		"a marshland with a reputation for being haunted",
+		"the government",
+		"a secret society that everyone knows exists",
+		"the monarch's spy network",
+		"a shanty town beneath a toll bridge",
+		"a port town known for ship building"
     ],
 	    
     "description": [
