@@ -446,7 +446,14 @@
 		"on an asteroid inhabited by opportunistic space pirates",
 		"in the most placid settlement on a planet with no atmosphere",
 		"in a family famous for their starship racing skills",
-		"in a previously uncontacted civilization in the Vast"
+		"in a previously uncontacted civilization in the Vast",
+		"on the dark side of a moon",
+		"working in a ship breaking yard",
+		"dodging the authorities",
+		"with a penchant for stealing starships",
+		"in an extremely supportive family of ex-explorers",
+		"on an illegally established colony",
+		"in a settlement ironically called New Eden"
 
     ],
 	    
@@ -490,7 +497,11 @@
 		"is morally opposed to shedding blood",
 		"enjoys taunting guards in any settlement they visit, though is proud of never having been thrown in jail for it",
 		"keeps their weapons and armor obsessively clean",
-		"gives a completely different story about how they got their obvious scar every time they're asked"
+		"gives a completely different story about how they got their obvious scar every time they're asked",
+		"has a deep appreciation of historical modes of transport",
+		"distrusts computers and isn't sure why",
+		"really enjoys the sound of laser fire",
+		"hopes to try a loaf of perfect bread someday"
  	]
 
 }
