@@ -478,7 +478,7 @@
 		"enjoy talking to strangers in a new settlement",
 		"have been unintentionally caught in the middle of a blood feud between two merchant familes",
 		"keep making social faux pas at every party they go to",
-		"keep meeting people who seem to recognize them, and have a history . . . do they have an unknown twin?",
+		"keep meeting people who treat them like an old friend",
 		"won a drinking contest at a famous establishment. They are terrified that someone will find out they cheated to win",
 		"have a penchant for bursting into dance routines at inappropriate moments",
 		"are extremely proud of the one time they taught a sailor a new curse word",
@@ -494,16 +494,24 @@
 		"can't remember why they started exploring, but are sure that it was an important reason",
 		"get an uneasy feeling anytime they go underground",
 		"are trying to prove their ability as an explorer to their family by finding a mythical gemstone",
-		"keep having dreams of a portal opening in a wall, full of firey light and one massive eye",
+		"keep having dreams of a portal opening in space, full of firey light and one massive eye",
 		"are pretty sure they can understand what plants are saying",
 		"are morally opposed to shedding blood",
 		"enjoy taunting guards in any settlement they visit, though is proud of never having been thrown in jail for it",
 		"keep their weapons and armor obsessively clean",
 		"give a completely different story about how they got their obvious scar every time they're asked",
 		"have a deep appreciation of historical modes of transport",
-		"distrusts computers and aren't sure why",
+		"distrust computers but aren't sure why",
 		"really enjoy the sound of laser fire",
-		"hope to try a loaf of perfect bread someday"
+		"hope to try a loaf of perfect bread someday",
+		"haven't ever been away from home before",
+		"are terrified of the Drift, but can't wait to go through it again",
+		"spent nearly two months stuck in a broken down ship, after the power core malfunctioned",
+		"escaped a sticky situation with help from their childhood enemy",
+		"get really attached to those they meet, uncomfortably quickly",
+		"hope to start a fungi farm when they retire, specializing in rare species",
+		"really love experimental cooking with ingredients from the far corners of the Vast",
+		"owe a favor to The Family"
  	]
 
 }
