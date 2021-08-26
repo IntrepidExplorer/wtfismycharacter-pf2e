@@ -2,17 +2,19 @@
 	"heading": [ 
 		"Have you ever played a", 
 		"What would your GM say to a", 
-		"For my back up character, I'm gonna play a fucking"
+		"For my back up character, I'm roll up a"
 	],
 	
   "response": [
-    	"Already fucking seen one",
-    	"Give me a-fucking-nother one",
+    	"Already seen one (seriously)",
+    	"Give me another one",
     	"Another!",
     	"Lame, try again",
     	"Are you insane? Give me a different one",
     	"This isn't the slightest big intriguing",
-    	"Nope, nope, nope"
+    	"Nope, nope, nope",
+		"Let's try something different",
+		"Too pedestrian, give me a different one!"
     ],
 	    
    "template": [
@@ -466,7 +468,11 @@
 		"the most secure prison within the Pact Worlds",
 		"a terraformed moon, specializing in agriculture",
 		"an illegal fight club",
-		"a military outpost in Near Space"
+		"a military outpost in Near Space",
+		"a city built into an icy asteroid",
+		"the only known settlement orbiting a comet",
+		"a group of zealots on a pilgrimage",
+		""
 
     ],
 	    
@@ -552,7 +558,13 @@
 		"keep getting mistaken for a famous politician",
 		"continually send money back to their very large family",
 		"are unwilling to admit that they're a germophobe",
-		"take great pride in their appearance"
+		"take great pride in their appearance",
+		"enjoy customizing their weapons and tools",
+		"are pretty sure 'dreaming' is a euphemism for something",
+		"secretly are terrified of the emptiness of space",
+		"feel much more comfortable on a planet",
+		"are extremely curious about the Gap",
+		"are struggling to break their gambling habit"
  	]
 
 }
