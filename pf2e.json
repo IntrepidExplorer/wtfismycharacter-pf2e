@@ -539,14 +539,17 @@
 		"cannot hold a tune",
 		"hope to work as an artist when they retire",
 		"feel like they can see the future, but they keep getting it wrong",
-		"are wanted for crimes by the king, but under a different name",
+		"are wanted for crimes against the crown, but under a different name",
 		"have a large personal bubble",
 		"are trying to start over, after being on the wrong side of a revolution",
 		"hope that adventuring will help them recover from the accident",
 		"are using adventuring as a fresh start",
 		"were cut from their dead mother's womb",
 		"have served jail time for a crime they never committed",
-		
-	 	]
+		"have a deep interest in the local political scene",
+	    	"wrote a song that they keep trying to get bards to perform",
+	    	"are allergic to soap",
+	    	"unconsciously narrate their combat actions",
+	 ]
 
 }
