@@ -420,7 +420,8 @@
 		"an orphanage",
 		"an island that never gets visitors",
 		"the edge of a haunted forest",
-		"the Royal Gardens"
+		"the Royal Gardens",
+		"beneath a troll bridge"
     ],
 	    
     "description": [
@@ -560,9 +561,9 @@
 		"were cut from their dead mother's womb",
 		"have served jail time for a crime they never committed",
 		"have a deep interest in the local political scene",
-	    	"wrote a song that they keep trying to get bards to perform",
-	    	"are allergic to soap",
-	    	"unconsciously narrate their combat actions",
+	    "wrote a song that they keep trying to get bards to perform",
+	    "are allergic to soap",
+	    "unconsciously narrate their combat actions"
 	 ]
 
 }
